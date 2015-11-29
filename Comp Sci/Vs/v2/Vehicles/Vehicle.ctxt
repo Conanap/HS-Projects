@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ drive()
+comment0.text=\r\n\ Abstract\ method\ declarations\:\ \r\n\ This\ means\ that\ all\ Vehicles\ must\ have\ a\r\n\ drive()\ method\ and\ a\ checkHitPedestrian()\ with\ the\ same\ signature\:\r\n\ E.g\:\ public\ void\ drive\ ();\r\n
+comment1.params=
+comment1.target=void\ checkHitPedestrian()
+comment2.params=remove
+comment2.target=void\ checkAndRemove(boolean)
+numComments=3

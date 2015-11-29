@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Background()
+comment0.text=\r\n\ Construct\ a\ world\ where\ the\ stat\ bars\ can\ be\ controlled\ and\ displayed\ to\ users.\r\n\r\n\ @param\ hearts\ The\ object\ of\ hearts\ created\ with\ value\ for\ lives\ and\ object\ height.\ \r\n\ @param\ manaPots\ The\ object\ of\ mana\ potions\ created\ with\ value\ for\ mana\ and\ object\ height\r\n\t\t\t\t\t\t\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\tUses\ update\ methods\ from\ ASImgBars\ to\ manipulate\ number\ of\ lives\ and\ amount\ of\ mana.\r\n\ Key\ Presses\ of\ left\ and\ right\ are\ associated\ with\ hearts\ (representing\ lives)\r\n\ Key\ Presses\ of\ up\ and\ down\ are\ associated\ with\ potions\ (representing\ mana)\r\n\ Runs\ updateDecrease\ and\ updateIncrease\ methods\ to\ change\ values.\r\n\r\n\ @return\ void\tNo\ return\ used.\r\n\t\t\t\t\t\t\r\n
+numComments=2

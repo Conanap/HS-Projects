@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ base()
+comment0.text=\r\n\ Draws\ the\ base\ of\ the\ bars\r\n
+comment1.params=
+comment1.target=void\ drawEvo()
+comment1.text=\r\n\ Draws\ the\ overlay\ of\ the\ bar\r\n
+comment2.params=
+comment2.target=void\ mutating()
+comment2.text=\r\n\ Determines\ if\ they\ should\ evolve\r\n
+comment3.params=barType
+comment3.target=void\ drawIdent(java.lang.String)
+comment3.text=\r\n\ Draws\ the\ string\ to\ help\ identify\ which\ bar\ is\ for\ which\ organisms\r\n
+comment4.params=
+comment4.target=void\ checkMax()
+comment4.text=\r\n\ Check\ if\ the\ evolution\ level\ is\ above\ maximum\ evolution\ level,\ and\ stop\ it's\ chance\ of\ evolving\ further.\r\n
+comment5.params=
+comment5.target=int\ getEvoLv()
+comment5.text=\r\n\ Call\ the\ method\ to\ get\ the\ evolution\ level\r\n\ @return\ int\ returns\ the\ level\ of\ the\ evolution\r\n
+numComments=6

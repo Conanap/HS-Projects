@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ExplosiveRound()
+comment1.params=inputSpeed
+comment1.target=ExplosiveRound(int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ ExplosiveRound\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ removeAtBorder()
+comment4.params=
+comment4.target=void\ explodeAtContact()
+comment4.text=\n\ Method\ explodeAtContact\n\ Checks\ if\ there\ are\ any\ intersecting\ objects\ with\ this\ one.\n\ If\ there\ are,\ ExplosiveRound\ is\ removed\ and\ replaced\ with\ an\ explosion.\n\ \n\ @return\ The\ return\ value\n
+numComments=5

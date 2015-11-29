@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MultiBomber()
+comment1.params=timer
+comment1.target=MultiBomber(int)
+comment2.params=timer\ bombs
+comment2.target=MultiBomber(int,\ int)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Plane\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment4.params=
+comment4.target=void\ bomb()
+numComments=5

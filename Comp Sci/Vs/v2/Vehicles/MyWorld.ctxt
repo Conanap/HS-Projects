@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MyWorld()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=inLane
+comment2.target=int\ getYPosition(int)
+comment2.text=\r\n\ Returns\ the\ appropriate\ y\ coordinate\ for\ a\ given\ lane\r\n
+numComments=3

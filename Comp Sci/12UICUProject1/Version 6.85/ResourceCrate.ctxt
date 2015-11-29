@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=ResourceCrate(int,\ int)
+comment0.text=\nConstructs\ a\ resource\ crate.\ No\ parameter\ needed\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ checkForHuman()
+comment3.params=
+comment3.target=int\ heliDrop()
+comment4.params=
+comment4.target=void\ pickedItUp()
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ base()
+comment0.text=\n\ Act\ -\ do\ whatever\ the\ evolutionBar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=
+comment1.target=void\ drawEvo()
+comment2.params=
+comment2.target=void\ mutating()
+comment3.params=barType
+comment3.target=void\ drawIdent(java.lang.String)
+comment4.params=
+comment4.target=void\ checkMax()
+comment5.params=
+comment5.target=int\ getEvoLv()
+comment5.text=\n\ Call\ the\ method\ to\ get\ the\ evolution\ level\n\ @return\ int\ returns\ the\ level\ of\ the\ evolution\n
+numComments=6

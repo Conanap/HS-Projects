@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=fConsump\ drop
+comment0.target=int\ food(int,\ boolean)
+comment0.text=\n\ The\ method\ governs\ the\ amount\ of\ food\n\ @param\ fConsump\ the\ amount\ of\ food\ consumed\ by\ the\ person\n\ @param\ drop\ If\ there\ was\ an\ air\ drop\ for\ resources,\ supplies\ resource\ to\ max\n
+comment1.params=wConsump\ drop
+comment1.target=int\ water(int,\ boolean)
+comment1.text=\n\ The\ method\ governs\ the\ amount\ of\ water\n\ @param\ wConsump\ The\ amount\ of\ water\ consumed\ by\ the\ person\n\ @param\ drop\ If\ there\ was\ an\ air\ drop\ for\ resources,\ supplies\ resource\ to\ max\n
+comment2.params=
+comment2.target=int[]\ getResource()
+comment3.params=
+comment3.target=boolean\ research()
+numComments=4

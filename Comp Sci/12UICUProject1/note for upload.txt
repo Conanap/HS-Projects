@@ -1,0 +1,15 @@
+private DropTimer drop1 = new DropTimer(5000);
+    private DropTimer drop2 = new DropTimer(5000);
+    private SmallDrop drop3 = new SmallDrop(5000);
+    
+    private ResourceCentre centre = new ResourceCentre(1500);
+	
+	add the above code to public class TheSimulation extends World  where the instance variables are declared
+	
+	addObject(drop1,670,15);
+        addObject(drop2,586,320);
+        addObject(drop3,446,228);
+        
+        addObject(centre,878,416);
+		
+		add the above code in the private void prepare method from TheSimulation 

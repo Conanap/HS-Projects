@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bullet()
+comment0.text=\n\ Constructor\ to\ call\ this\ object,\ Bullet\n
+comment1.params=damage
+comment1.target=Bullet(int)
+comment1.text=\n\ Other\ constructor\ to\ call\ bullet\ with\ damage\n\ \n\ @param\ int\ damage\ \ number\ of\ damage\ of\ this\ bullet\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Bullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ removeAtBorder()
+comment3.text=\n\ When\ the\ bullet\ reaches\ the\ world\ border,\ or\ has\ flown\n\ past\ it's\ flyTime,\ removes\ the\ object.\ Otherwise,\ runs\n\ hurtZombie()\n\ \n\ Roland\n
+comment4.params=
+comment4.target=void\ hurtZombie()
+comment4.text=\n\ As\ it\ hits\ the\ zombies,\ decrease\ the\ hp\ of\ the\ zombies\n
+numComments=5

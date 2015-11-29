@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pedestrian()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ knockMeOver()
+comment2.text=\r\n\ Method\ causes\ this\ Pedestrian\ to\ stop\ moving\r\n\ and\ appear\ to\ fall\ over\r\n
+comment3.params=
+comment3.target=void\ healMe()
+comment3.text=\r\n\ Method\ causes\ this\ pedestrian\ to\ "heal"\ -\ regain\r\n\ upright\ position\ and\ start\ moving\ again\r\n
+comment4.params=
+comment4.target=boolean\ pickMeUp()
+comment4.text=\r\n\ Method\ causes\ the\ pedestrian\ to\ get\ picked\ up\r\n\ by\ the\ bus\ -\ not\ yet\ implemented\r\n
+numComments=5

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DropTimer()
+comment0.text=\r\n\ Constructing\ a\ new\ health\ bar.\ No\ parameters,\ \ automatically\ defaults\ maximum\ HP\ and\ manna\ to\ 100.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=imHP
+comment2.target=DropTimer(double)
+comment2.text=\r\n\ Constructing\ a\ new\ health\ bar.\ Initializes\ maximum\ manna\ to\ 100\r\n\ @param\ imHP\ Put\ in\ the\ maximum\ amount\ of\ HP\ you\ want\ the\ object\ to\ have.\r\n
+comment3.params=
+comment3.target=void\ base()
+comment3.text=\r\n\ This\ method\ draws\ and\ sets\ the\ basics\ of\ the\ health\ bar.\ Cannot\ be\ accessed\ outside\ of\ the\ class.\r\n
+comment4.params=damage
+comment4.target=void\ update(boolean)
+comment4.text=\r\n\ Updating\ the\ health\ bars.\ Must\ be\ called\ every\ time\ you\ want\ to\ change\ the\ amount\ of\ HP.\r\n\ @param\ damage\ If\ true,\ it\ reduces\ the\ amount\ of\ HP\ and\ manna;\ if\ false,\ it\ increases\ the\ amount\ of\ HP\ and\ manna.\ Increments\ by\ 1.\r\n
+comment5.params=percent
+comment5.target=void\ detColor(double)
+comment5.text=\r\n\ Private\ method,\ cannot\ be\ accessed\ outside\ of\ class.\ Determines\ the\ color\ of\ the\ smaller\ circle\ and\ status\ box.\r\n\ If\ you\ don't\ like\ the\ colors\ you\ can\ change\ the\ parameters\ here\r\n
+comment6.params=
+comment6.target=void\ checkMax()
+comment6.text=\r\n\ Private\ method,\ to\ prevent\ the\ circle\ from\ being\ larger\ than\ intended\ (max\ diameter)\ or\ having\ negative\ numbers,\ which\ will\ cause\ delays\ and\ inaccurate\ display\ of\r\n\ health\ and\ status.\ The\ same\ is\ true\ for\ numbers\ larger\ than\ max\ HP\ or\ max\ Manna\ possible.\r\n
+numComments=7

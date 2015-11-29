@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HealthCircle()
+comment0.text=\r\n\ Constructing\ a\ new\ health\ bar.\ No\ parameters,\ \ automatically\ defaults\ maximum\ HP\ and\ manna\ to\ 100.\r\n
+comment1.params=imHP
+comment1.target=HealthCircle(double)
+comment1.text=\r\n\ Constructing\ a\ new\ health\ bar.\ Initializes\ maximum\ manna\ to\ 100\r\n\ @param\ imHP\ Put\ in\ the\ maximum\ amount\ of\ HP\ you\ want\ the\ object\ to\ have.\r\n
+comment2.params=imHP\ imManna
+comment2.target=HealthCircle(double,\ double)
+comment2.text=\r\n\ Constructing\ a\ new\ health\ bar.\r\n\ @param\ imHP\ Put\ in\ the\ maximum\ amount\ of\ HP\ you\ want\ the\ object\ to\ have\r\n\ @param\ imManna\ Put\ in\ the\ maximum\ amount\ of\ manna\ you\ want\ the\ object\ to\ have\r\n
+comment3.params=
+comment3.target=void\ base()
+comment3.text=\r\n\ This\ method\ draws\ and\ sets\ the\ basics\ of\ the\ health\ bar.\ Cannot\ be\ accessed\ outside\ of\ the\ class.\r\n
+comment4.params=damage\ manChange
+comment4.target=void\ update(boolean,\ boolean)
+comment4.text=\r\n\ Updating\ the\ health\ bars.\ Must\ be\ called\ every\ time\ you\ want\ to\ change\ the\ amount\ of\ HP.\r\n\ @param\ damage\ If\ true,\ it\ reduces\ the\ amount\ of\ HP\ and\ manna;\ if\ false,\ it\ increases\ the\ amount\ of\ HP\ and\ manna.\ Increments\ by\ 1.\r\n
+comment5.params=damage\ manChange
+comment5.target=void\ update(double,\ double)
+comment5.text=\r\n\ Updates\ the\ health\ bars.\ Must\ be\ called\ everytime\ you\ want\ to\ change\ the\ ammount\ hP.\r\n\ @param\ damage\ Neagtive\ number\ to\ reduce\ HP,\ positive\ number\ to\ increase\ HP.\ Custom\ increments,\ according\ to\ this\ variable.\r\n\ @param\ manChange\ Negative\ number\ to\ reduce\ manna,\ positive\ number\ to\ increase\ manna.\ Custom\ increments,\ according\ to\ this\ variable.\r\n
+comment6.params=percent
+comment6.target=void\ detColor(double)
+comment6.text=\r\n\ Private\ method,\ cannot\ be\ accessed\ outside\ of\ class.\ Determines\ the\ color\ of\ the\ smaller\ circle\ and\ status\ box.\r\n\ If\ you\ don't\ like\ the\ colors\ you\ can\ change\ the\ parameters\ here\r\n
+comment7.params=
+comment7.target=void\ checkMax()
+comment7.text=\r\n\ Private\ method,\ to\ prevent\ the\ circle\ from\ being\ larger\ than\ intended\ (max\ diameter)\ or\ having\ negative\ numbers,\ which\ will\ cause\ delays\ and\ inaccurate\ display\ of\r\n\ health\ and\ status.\ The\ same\ is\ true\ for\ numbers\ larger\ than\ max\ HP\ or\ max\ Manna\ possible.\r\n
+numComments=8

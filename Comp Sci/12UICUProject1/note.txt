@@ -1,0 +1,7 @@
+in the human class, add a method to determine if it is touching the resource crate. when true remove the crate and create a new health bar for timer
+
+put resource in resourceCentre
+
+resourceCrate do check hit, use mutator to change variable
+
+evobar

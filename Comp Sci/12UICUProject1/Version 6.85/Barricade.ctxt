@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=facing
+comment0.target=Barricade(java.lang.String)
+comment0.text=\n\ Constructor\ to\ call\ barricade\ from\ HealthyHuman\ class\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Barricade\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=amount
+comment2.target=void\ decreaseHp(int)
+comment2.text=\n\ Decrease\ the\ hp\ of\ the\ barricade\ as\ zombies\ destroy\ it\ \n
+numComments=3

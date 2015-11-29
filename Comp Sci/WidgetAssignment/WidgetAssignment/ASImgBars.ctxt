@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=numLives\ imgHeight
+comment0.target=ASImgBars(int,\ double)
+comment0.text=\r\n\ Constructs\ a\ bar\ that\ displays\ number\ of\ lives\ using\ hearts.\ Initializes\ the\ values\ for\ lives\ and\ image\ height\ as\ well.\r\n\r\n\ @param\ numLives\ The\ user\ sets\ the\ value\ for\ max\ lives\ to\ 15\ here.\ \r\n\ @param\ imgHeight\ The\ user\ sets\ the\ value\ for\ heart\ height\ to\ 32.0\ here.\r\n\ \ \ \ \ \ \r\n
+comment1.params=numMana\ imgHeight
+comment1.target=ASImgBars(int,\ int)
+comment1.text=\r\n\ Constructs\ a\ bar\ that\ displays\ amount\ of\ mana\ using\ potions.\ Initializes\ the\ values\ for\ mana\ and\ image\ height\ as\ well.\r\n\r\n\ @param\ numMana\ The\ user\ sets\ the\ value\ for\ max\ mana\ to\ 15\ here.\ \r\n\ @param\ imgHeight\ The\ user\ sets\ the\ value\ for\ potion\ height\ to\ 32\ here.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment2.params=livesDown
+comment2.target=int\ updateDecrease(int)
+comment2.text=\r\n\ Checks\ to\ see\ if\ current\ number\ of\ lives\ is\ above\ zero\ so\ that\ \ \r\n\ decreasing\ lives\ will\ change\ nothing\ if\ lives\ are\ equal\ to\ zero.\r\n\ If\ lives\ are\ above\ zero\ then\ the\ number\ of\ lives\ can\ and\ will\ be\ decreased\ (by\ specified\ amount)\ upon\ running\ of\ method.\r\n\ Runs\ updateImage()\ method\ to\ reconfigure\ number\ of\ hearts\ to\ match\ number\ of\ lives.\r\n\r\n\ @param\ livesDown\ Needs\ to\ be\ inputted\ when\ running\ the\ method.\ Determines\ how\ many\ lives\ to\ subtract.\r\n\ @return\ int\ \ Returns\ number\ of\ lives\ as\ an\ integer\ (after\ subtraction),\ otherwise\ returns\ 0.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment3.params=manaDown
+comment3.target=int\ updateDecrease(double)
+comment3.text=\r\n\ \ Checks\ to\ see\ if\ current\ amount\ of\ mana\ is\ above\ zero\ so\ that\ \ \r\n\ decreasing\ mana\ will\ change\ nothing\ if\ mana\ is\ equal\ to\ zero.\r\n\ If\ mana\ is\ above\ zero\ then\ the\ amount\ of\ mana\ can\ and\ will\ be\ decreased\ (by\ specified\ amount)\ upon\ running\ of\ method.\r\n\ Runs\ updateImageTwo()\ method\ to\ reconfigure\ number\ of\ potions\ to\ match\ amount\ of\ mana.\r\n\r\n\ @param\ manaDown\ Needs\ to\ be\ inputted\ when\ running\ the\ method.\ Determines\ how\ much\ mana\ to\ subtract.\r\n\ @return\ int\ \ Returns\ amount\ of\ mana\ as\ an\ integer\ (after\ subtraction),\ otherwise\ returns\ 0.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment4.params=livesUp
+comment4.target=int\ updateIncrease(int)
+comment4.text=\r\n\ \ Checks\ to\ see\ if\ current\ number\ of\ lives\ is\ below\ fifteen\ so\ that\ \ \r\n\ increasing\ lives\ will\ change\ nothing\ if\ lives\ are\ equal\ to\ fifteen\ already\ (max\ amount).\r\n\ If\ lives\ are\ below\ fifteen\ then\ the\ number\ of\ lives\ can\ and\ will\ be\ increased\ (by\ specified\ amount)\ upon\ running\ of\ method.\r\n\ Runs\ updateImage()\ method\ to\ reconfigure\ number\ of\ hearts\ to\ match\ number\ of\ lives.\r\n\r\n\ @param\ livesUp\ Needs\ to\ be\ inputted\ when\ running\ the\ method.\ Determines\ how\ many\ lives\ to\ add.\r\n\ @return\ int\ \ Returns\ number\ of\ lives\ as\ an\ integer\ (after\ addition),\ otherwise\ returns\ 15.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment5.params=manaUp
+comment5.target=int\ updateIncrease(double)
+comment5.text=\r\n\ \ Checks\ to\ see\ if\ current\ amount\ of\ mana\ is\ below\ fifteen\ so\ that\ \ \r\n\ increasing\ mana\ will\ change\ nothing\ if\ mana\ is\ equal\ to\ fifteen\ already\ (max\ amount).\r\n\ If\ mana\ is\ below\ fifteen\ then\ the\ amount\ of\ mana\ can\ and\ will\ be\ increased\ (by\ specified\ amount)\ upon\ running\ of\ method.\r\n\ Runs\ updateImageTwo()\ method\ to\ reconfigure\ number\ of\ potions\ to\ match\ amount\ of\ mana.\r\n\r\n\ @param\ manaUp\ Needs\ to\ be\ inputted\ when\ running\ the\ method.\ Determines\ how\ much\ mana\ to\ add.\r\n\ @return\ int\ \ Returns\ amount\ of\ mana\ as\ an\ integer\ (after\ addition),\ otherwise\ returns\ 15.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment6.params=
+comment6.target=void\ updateImage()
+comment6.text=\r\n\ \ Creates\ a\ base\ image\ for\ the\ hearts\ (representing\ lives)\ to\ be\ placed\ onto\r\n\ \ Sets\ background\ and\ border\ (of\ bar)\ to\ white\ so\ it\ is\ invisible.\r\n\ Creates\ a\ hearts\ object\ that\ stores\ the\ image\ for\ hearts.\r\n\ Uses\ a\ for\ loop\ to\ draw\ the\ hearts\ onto\ the\ base\ image\ accurate\ to\ a\ properly\ formatted\ size.\r\n\ Runs\ setImage()\ method\ (Greenfoot\ built\ in)\ to\ set\ the\ base\ image\ to\ have\ the\ right\ number\ of\ hearts\ on\ top\ of\ it.\r\n\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment7.params=
+comment7.target=void\ updateImageTwo()
+comment7.text=\r\n\ \ Creates\ a\ base\ image\ for\ the\ potions\ (representing\ mana)\ to\ be\ placed\ onto.\r\n\ \ Sets\ background\ and\ border\ (of\ bar)\ to\ white\ so\ it\ is\ invisible.\r\n\ Creates\ a\ potions\ object\ that\ stores\ the\ image\ for\ potions.\r\n\ Uses\ a\ for\ loop\ to\ draw\ the\ potions\ onto\ the\ base\ image\ accurate\ to\ a\ properly\ formatted\ size.\r\n\ Runs\ setImage()\ method\ (Greenfoot\ built\ in)\ to\ set\ the\ base\ image\ to\ have\ the\ right\ number\ of\ potions\ on\ top\ of\ it.\r\n\r\n
+numComments=8

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HeavyArmedSoldier()
+comment0.text=\n\ Constructor\ of\ this\ object,HeavyArmedSolider\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Update\ the\ new\ image\ of\ the\ object\ when\ it\ is\ moving\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Sniper\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\ \n
+comment3.params=
+comment3.target=Bullet\ loadBullet()
+comment3.text=\n\ Call\ the\ bullet\ with\ particular\ damage\ that\ will\ be\ shot\ from\ this\ object\n
+numComments=4

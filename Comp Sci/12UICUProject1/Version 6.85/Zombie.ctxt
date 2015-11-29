@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ move()
+comment0.text=\nSets\ the\ movement.\ \n
+comment1.params=
+comment1.target=void\ breakBarricades()
+comment1.text=\n\ Breaks\ the\ barricades.\n
+comment2.params=damage
+comment2.target=void\ breakBarricades(int)
+comment2.text=\n\ Breaks\ the\ barricades.\n
+comment3.params=damage
+comment3.target=void\ decreaseCurrHp(int)
+comment4.params=p
+comment4.target=void\ infectHuman(HealthyHuman)
+numComments=5
