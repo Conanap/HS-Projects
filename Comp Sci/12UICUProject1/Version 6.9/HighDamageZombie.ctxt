@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\nA\ zombie\ can\ move\ and\ die.\r\n
+comment1.params=
+comment1.target=HighDamageZombie()
+comment1.text=\r\n\ Constructs\ a\ zombie\ with\ speed\ of\ 3\ and\ hit\ point\ of\ 100.\r\n
+numComments=2

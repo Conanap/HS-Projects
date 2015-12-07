@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=
+comment1.target=void\ sortLargestToSmallest()
+comment2.params=theArray\ report
+comment2.target=boolean\ checkResults(int[],\ boolean)
+comment2.text=\r\n\ Sort\ result\ checker.\r\n\ \r\n\ This\ modular\ method\ will\ check\ any\ given\ array\ of\ integers\ and\ \r\n\ return\ true\ if\ the\ values\ are\ correctly\ sorted\ or\ false\ if\ there\r\n\ are\ any\ errors.\ Setting\ the\ parameter\ boolean\ reporting\ to\ true\r\n\ will\ also\ output\ the\ results\ to\ the\ screen.\r\n\ \r\n\ @author\ Jordan\ Cohen\r\n\ @version\ April\ 2014\r\n
+numComments=3

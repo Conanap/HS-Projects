@@ -1,0 +1,78 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.awt.Color;
+
+/**
+ * 
+ * @author Tyler Zhang
+ * @version 20140916
+ */
+public class ScoreBar extends Actor
+{
+    private GreenfootImage bar;
+    private int maxHP;
+    private int curHP = 0;
+    private double curPercentHP;
+
+    private final int BAR_RADIUS = 50;
+    private final int OFFSET = 20;
+
+    private Actor target;
+
+    public HealthBar()
+    {
+        bar = new GreenfootImage(BAR_RADIUS * 2, BAR_RADIUS * 2);
+        bar.setColor(WHITE);
+        bar.fillOval(0,0,BAR_RADIUS * 2,BAR_RADIUS * 2);
+    }
+
+    public HealthBar(int max, int current){
+        this();
+        maxHP = max;
+        curHP = current;
+        curPercentHP = calcPer();
+    }
+
+    /**
+     * Act - do whatever the HealthBar wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        
+    }    
+
+    private double calcPer()
+    {
+        return curHP / maxHP * 100;
+    }
+
+    /**
+     * update Method:
+     * 
+     * Expects new current HP
+     * 
+     * Returns true if HP has changed (needs an update)
+     * Returns false if HP has not changed (to avoid excessive processing)
+     */
+    public void update (int newCurHP)
+    {
+        if (newCurHP != curHP)
+        {   
+            curHP = newCurHP;
+            curPercentHP = calcPer()
+            greenBarSize = (int) (currPercentHP * HP_BAR_WIDTH);
+            redBarSize = HP_BAR_WIDTH - greenBarSize;
+            //Troubleshooting code:
+            //System.out.println("CurrHP: " + currHP + " curr%HP: " + currPercentHP);
+            //System.out.println("GreenBar: " + greenBarSize + " RedBar: " + redBarSize);
+            bar.setColor(myGreen);
+            bar.fillRect(0,0,greenBarSize, HP_BAR_HEIGHT);
+            bar.setColor(myRed);
+            bar.fillRect(greenBarSize, 0, redBarSize, HP_BAR_HEIGHT);
+            this.setImage(bar);
+            return true;
+
+        }
+        return false;
+    }
+}

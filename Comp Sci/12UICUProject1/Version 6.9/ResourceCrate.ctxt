@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ResourceCrate()
+comment0.text=\r\nConstructs\ a\ resource\ crate.\ No\ parameter\ needed\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ actor,\ continuously\ checks\ if\ humans\ are\ around\ to\ pick\ it\ up\r\n
+comment2.params=
+comment2.target=void\ checkForHuman()
+comment2.text=\r\n\ checks\ if\ humans\ are\ around\ to\ pick\ it\ up\r\n
+comment3.params=
+comment3.target=int\ heliDrop()
+comment3.text=\r\n\ Determines\ type\ of\ supply\r\n
+comment4.params=
+comment4.target=void\ pickedItUp()
+comment4.text=\r\n\ Supplies\ the\ resource\ Centre\ with\ resource\ and\ puts\ a\ timer\ back\ in\ place\ when\ a\ human\ picks\ up\ the\ crate\r\n
+numComments=5

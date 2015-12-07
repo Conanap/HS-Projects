@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=menu
+comment0.target=MainMenu(greenfoot.GreenfootSound)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Testing.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ When\ the\ game\ is\ run,\ embers\ are\ generated\!\ Yay\!\r\n
+comment2.params=
+comment2.target=void\ generateEmbers()
+comment2.text=\r\n\ Mimics\ the\ animation\ of\ burning\ embers.\r\n
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\r\n\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment4.params=
+comment4.target=void\ started()
+comment4.text=\r\n\ Starts\ playing\ the\ main\ menu\ theme.\r\n
+comment5.params=
+comment5.target=void\ stopped()
+comment5.text=\r\n\ Stops\ playing\ the\ main\ menu\ theme\ when\ the\ simulation\ is\ not\ running.\r\n
+numComments=6

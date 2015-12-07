@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=max\ x\ y
+comment0.target=HealthBar(int,\ int,\ int)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=num
+comment2.target=void\ update(int)
+comment3.params=
+comment3.target=void\ resetLocation()
+numComments=4

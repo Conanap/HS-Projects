@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.params=amount
+comment0.target=void\ moveX(int)
+comment1.params=num
+comment1.target=void\ damage(int)
+comment10.params=direction
+comment10.target=boolean\ moveCollision(int)
+comment10.text=\r\n\ Method\ moveCollision\r\n\r\n\ @param\ direction\ The\ direction\ the\ player\ is\ moving\ in.\ Positive\ \=\ towards\ the\ right,\ Negative\ \=\ towards\ the\ left\r\n\ @return\ True\ if\ the\ player\ collides,\ False\ if\ not\r\n
+comment11.params=
+comment11.target=boolean\ headCollision()
+comment12.params=direction
+comment12.target=boolean\ edgeOfWorld(int)
+comment12.text=\r\n\ Checks\ if\ character\ is\ about\ to\ collide\ with\ edge\ of\ the\ world\ based\ off\ the\ character's\ move\ direction\r\n\r\n\ @param\ direction\ A\ parameter\r\n\ @return\ The\ return\ value\r\n
+comment13.params=
+comment13.target=boolean\ getMoveDir()
+comment2.params=num
+comment2.target=void\ heal(int)
+comment3.params=
+comment3.target=void\ die()
+comment4.params=num
+comment4.target=void\ jump(int)
+comment5.params=
+comment5.target=void\ resetJump()
+comment6.params=change
+comment6.target=void\ accelerate(int)
+comment6.text=\r\n\ Method\ accelerate\r\n\r\n\ @param\ change\ A\ parameter\r\n
+comment7.params=
+comment7.target=void\ decelerate()
+comment7.text=\r\n\ Method\ decelerate\r\n\ \r\n\ *Note,\ counteracts\ move()\ if\ the\ parameters\ entered\ in\ move()\ is\ 1\r\n
+comment8.params=
+comment8.target=void\ gravity()
+comment9.params=
+comment9.target=boolean\ touchGround()
+numComments=14

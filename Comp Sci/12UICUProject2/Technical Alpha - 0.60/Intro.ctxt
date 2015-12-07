@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Intro()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Intro.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ LoadingScreen\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\r\n\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment3.params=
+comment3.target=void\ started()
+comment3.text=\r\n\ Starts\ playing\ the\ main\ menu\ theme.\r\n
+comment4.params=
+comment4.target=void\ stopped()
+comment4.text=\r\n\ Stops\ playing\ the\ main\ menu\ theme\ when\ the\ simulation\ is\ not\ running.\r\n
+comment5.params=
+comment5.target=greenfoot.GreenfootSound\ getTheme()
+comment5.text=\ \r\n\ Accessor\ that\ returns\ the\ GreenfootSound\ theme\r\n\ \r\n\ @return\ GreenfootSound\ \ \ the\ music\ theme\ being\ played\r\n
+numComments=6

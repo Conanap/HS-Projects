@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SuperBullet()
+comment0.text=\r\n\ Constructor\ of\ this\ object,SuperBullet\ which\ is\ called\ by\ HeavyArmedSolider\ class\r\n
+comment1.params=damage
+comment1.target=SuperBullet(int)
+comment1.text=\r\n\ Constructor\ of\ this\ object,SuperBullet\ which\ is\ called\ by\ HeavyArmedSolider\ class\r\n\ with\ parameter\ of\ damage\ \r\n\ \r\n\ @param\ int\ damage\ \ number\ of\ damage\ of\ this\ bullet\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ superBullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

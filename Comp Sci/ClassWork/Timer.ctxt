@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Timer()
+comment0.text=\r\n\ Constructor\ does\ nothing...\ however,\ I\ avoided\ making\ this\ class\ static\ so\r\n\ that\ multiple\ Timers\ could\ be\ used\ simultaneously.\r\n
+comment1.params=
+comment1.target=void\ startTimer()
+comment1.text=\r\n\ Start\ the\ Timer\r\n
+comment2.params=
+comment2.target=void\ endTimer()
+comment2.text=\r\n\ Stop\ the\ Timer\r\n
+comment3.params=
+comment3.target=void\ resetTimer()
+comment3.text=\r\n\ Reset\ the\ Timer\r\n
+comment4.params=
+comment4.target=java.lang.String\ getTimeString()
+comment4.text=\r\n\ Returns\ elapsed\ time\ as\ a\ neatly\ formatted\ String.\ Most\ practical\ for\r\n\ applications\ where\ output\ (rather\ than\ calculation)\ is\ the\ goal.\ The\r\n\ exact\ format\ will\ depend\ on\ the\ time\ elapsed\ -\ either\ ms,\ sec,\ or\ min\:sec.\r\n\ \r\n\ @return\ String\ \ \ neatly\ formatted\ display\ of\ time\ elapsed\r\n
+comment5.params=
+comment5.target=int\ getTimeInSeconds()
+comment5.text=\r\n\ Return\ the\ elapsed\ time\ in\ seconds.\ This\ assumes\ that\ the\ timer\ has\ already\r\n\ been\ started\ and\ stopped\ (but\ not\ reset).\ For\ very\ short\ durations,\ this\ will\r\n\ return\ zero\ even\ though\ some\ time\ has\ elapsed.\r\n\ \r\n\ @return\ int\ \ The\ number\ of\ seconds\ elapsed,\ as\ an\ int.\r\n
+comment6.params=
+comment6.target=float\ getTimeInPreciseSeconds()
+comment6.text=\r\n\ Return\ the\ elapsed\ time\ in\ seconds.\ This\ assumes\ that\ the\ timer\ has\ already\r\n\ been\ started\ and\ stopped\ (but\ not\ reset).\ For\ very\ short\ durations,\ this\ will\r\n\ return\ zero\ even\ though\ some\ time\ has\ elapsed.\r\n\ \r\n\ @return\ float\ \ The\ number\ of\ seconds\ elapsed,\ as\ an\ int.\r\n
+comment7.params=
+comment7.target=float\ getTimeInMilliseconds()
+comment7.text=\r\n\ Return\ the\ elapsed\ time\ in\ seconds.\ This\ assumes\ that\ the\ timer\ has\ already\r\n\ been\ started\ and\ stopped\ (but\ not\ reset).\ This\ will\ return\ the\ value\ as\ a\ \r\n\ float\ and\ is\ most\ useful\ for\ shorter\ durations\ where\ second\ is\ not\ accurate\r\n\ enough.\r\n\ \r\n\ @return\ float\ \ The\ number\ of\ milliseconds\ elapsed,\ as\ a\ float.\r\n
+numComments=8

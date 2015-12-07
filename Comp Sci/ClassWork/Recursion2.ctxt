@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=void\ nToOne(int)
+comment1.params=n
+comment1.target=void\ oneToN(int)
+comment2.params=n
+comment2.target=int\ sigmaN(int)
+comment3.params=n
+comment3.target=int\ sequenceA(int)
+comment4.params=n
+comment4.target=int\ sequenceB(int)
+comment5.params=n
+comment5.target=int\ sequenceC(int)
+comment6.params=n
+comment6.target=int\ sequenceD(int)
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=inPath
+comment0.target=FileWriting(java.lang.String)
+comment1.params=inPath\ append
+comment1.target=FileWriting(java.lang.String,\ boolean)
+comment2.params=last\ nums
+comment2.target=void\ writeToFile(int[],\ int)
+comment3.params=text
+comment3.target=void\ WriteToFile(java.lang.String)
+numComments=4

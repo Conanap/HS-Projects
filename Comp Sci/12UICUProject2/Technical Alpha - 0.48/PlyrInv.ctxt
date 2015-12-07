@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PlyrInv()
+comment1.params=Test
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment10.params=coins
+comment10.target=void\ updateCoinDisplay(int)
+comment2.params=showing
+comment2.target=void\ setShowing(boolean)
+comment3.params=
+comment3.target=void\ removeAssets()
+comment4.params=Test
+comment4.target=void\ fillInvSlots(greenfoot.World)
+comment5.params=Test
+comment5.target=void\ fillInvItems(greenfoot.World)
+comment6.params=
+comment6.target=void\ emptyInvSlots()
+comment7.params=item
+comment7.target=void\ removeItem(InventoryItem)
+comment8.params=ID
+comment8.target=boolean\ addItem(int)
+comment9.params=item
+comment9.target=void\ addItem(InventoryItem)
+numComments=11

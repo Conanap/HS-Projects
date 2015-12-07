@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ die()
+comment0.text=\r\n\ If\ contacts\ the\ end\ of\ the\ world,\ removes\ this\ object\ \r\n
+comment1.params=distance
+comment1.target=int\ aimAtHuman(int)
+comment1.text=\r\n\r\n\ Roland\r\n\ @param\ targetType\ A\ parameter\r\n
+comment2.params=distance
+comment2.target=int\ aimAtZombie(int)
+comment2.text=\r\n\r\n\ Roland\r\n\ @param\ targetType\ A\ parameter\r\n
+numComments=3

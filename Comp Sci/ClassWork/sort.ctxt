@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=change
+comment1.target=void\ changeStep(int)
+comment1.text=\n\ Add\ the\ amount\ of\ steps\ to\ the\ int\ step\ of\ the\ class\n\ \n\ @param\ change\ \ Amount\ of\ steps\n
+comment2.params=
+comment2.target=void\ mySort()
+comment3.params=
+comment3.target=void\ bubbleSort()
+comment4.params=theArray\ report
+comment4.target=boolean\ checkResults(int[],\ boolean)
+comment4.text=\n\ Sort\ result\ checker.\n\ \n\ This\ modular\ method\ will\ check\ any\ given\ array\ of\ integers\ and\ \n\ return\ true\ if\ the\ values\ are\ correctly\ sorted\ or\ false\ if\ there\n\ are\ any\ errors.\ Setting\ the\ parameter\ boolean\ reporting\ to\ true\n\ will\ also\ output\ the\ results\ to\ the\ screen.\n\ \n\ @author\ Jordan\ Cohen\n\ @version\ April\ 2014\n
+numComments=5

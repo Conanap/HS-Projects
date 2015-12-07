@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NewsBar()
+comment1.params=text
+comment1.target=NewsBar(java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ NewsBar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ updateBar()
+comment3.text=\r\n\ Method\ updateBar\r\n\ Causes\ the\ message\ to\ scroll\ to\ the\ left\ side\ of\ the\ bar.\r\n
+comment4.params=
+comment4.target=void\ switchMessage()
+comment4.text=\r\n\ Method\ switchMessage\r\n\ Switches\ the\ message\ if\ a\ new\ message\ is\ inputed,\ then\ resets\ the\ location\ of\ the\ message\ so\ it\ scrolls.\r\n\ \r\n
+comment5.params=input
+comment5.target=void\ changeMessage(java.lang.String)
+comment5.text=\r\n\ Method\ changeString\r\n\ Stores\ new\ message\ for\ later\r\n\ \r\n\ @param\ Message\ to\ output\ next\r\n\ \r\n
+numComments=6

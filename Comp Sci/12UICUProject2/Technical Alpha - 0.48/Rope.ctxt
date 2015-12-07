@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=amount
+comment0.target=void\ extend(int)
+comment1.params=
+comment1.target=boolean\ touchGround()
+comment2.params=x\ y
+comment2.target=void\ resetPosition(int,\ int)
+comment3.params=
+comment3.target=int\ returnX()
+comment4.params=
+comment4.target=int\ returnY()
+comment5.params=
+comment5.target=int\ returnCLength()
+comment6.params=
+comment6.target=int\ returnMLength()
+comment7.params=
+comment7.target=int\ returnID()
+numComments=8

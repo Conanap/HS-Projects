@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=char[][]\ setupGrid()
+comment1.text=\r\n\ Prepare\ the\ grid\ for\ this\ exercise.\r\n\ \r\n\ You\ can\ change\ this\ method\ to\ try\ different\r\n\ configurations\ and\ make\ sure\ your\ flood\ recursive\r\n\ algorithm\ works\r\n
+comment2.params=grid
+comment2.target=void\ displayGrid(char[][])
+comment2.text=\r\n\ Simple\ method\ to\ display\ contents\ of\ 2d\ array.\r\n\ Put\ in\ it's\ own\ method\ to\ keep\ code\ clean\!\r\n
+comment3.params=grid\ x\ y\ flooder\ bounder
+comment3.target=void\ floodGrid(char[][],\ int,\ int,\ char,\ char)
+comment3.text=\r\n\ Grid-flooding\ method.\ Will\ use\ a\ recursively\ flood\ the\ given\ grid,\ \r\n\ at\ the\ given\ pixel,\ with\ a\ given\ character.\ For\ example\:\r\n\ \r\n\ floodGrid\ (grid,\ 5,\ 5,\ 'T',\ '*')\ \r\n\ \r\n\ ...\ Will\ try\ to\ move\ in\ every\ direction,\ changing\ everything\r\n\ that\ isn't\ a\ '*'(bounder)\ or\ a\ 'T'(flooder)\ into\ a\ 'T'.\r\n\ \r\n\ Notice\ -\ void\ return\ type.\ Base\ case\ will\ return\ nothing\:\r\n\ return;\r\n\ \r\n\ @param\ char[][]\ \ A\ copy\ of\ the\ grid\ to\ manipulate\r\n\ @param\ int\ \ \ \ \ \ \ the\ x\ coordinate\ to\ try\ to\ change\r\n\ @param\ int\ \ \ \ \ \ \ the\ y\ coordinate\ to\ try\ to\ change\r\n\ @param\ char\ \ \ \ \ \ the\ character\ you\ wish\ to\ fill\ with\ (flooder)\r\n\ @param\ char\ \ \ \ \ \ the\ character\ that\ will\ serve\ as\ a\ wall\ (bounder)\r\n
+numComments=4

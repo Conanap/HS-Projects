@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TrashSlot()
+comment1.params=Test
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ clearAsset()
+comment3.params=newItem
+comment3.target=void\ newItem(InventoryItem)
+numComments=4
